@@ -8,12 +8,12 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class AddNewContactTests extends TestBase{
+public class  AddNewContactTests extends TestBase{
 
     @BeforeClass
     public void preCondition(){
         if (!app.getHelperUser().isLogged()) {
-            app.getHelperUser().login(new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$"));
+            app.getHelperUser().login(new User().withEmail("eldar@mail.com").withPassword("Aa123456!"));
         }
 
     }
